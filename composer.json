@@ -1,0 +1,21 @@
+{
+    "name": "jsonmark/alipay",
+    "description": "支付宝（蚂蚁金服）开放平台第三方 PHP SDK，基于官方 3.3.0 版本，助力支付宝小程序后端开发",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jsonmark",
+            "email": "3401889728@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alipay\\": "aop/"
+        }
+    }
+}
